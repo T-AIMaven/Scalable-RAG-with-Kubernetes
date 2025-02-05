@@ -1,7 +1,6 @@
 """Main application file for the FastAPI app."""
 
 import os
-
 import openai
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
