@@ -1,12 +1,12 @@
 # Q&A Pipeline Deployment on GKE for Scalability with LlamaIndex and Qdrant 🚀
 
 <p align="center">
-<img width="737" alt="cover_gke_medium" src="https://github.com/benitomartin/de-hotel-reviews/assets/116911431/334a141c-4dd1-463e-b170-635144fdfb48">
+<img width="737" alt="cover_gke_medium" src="https://github.com/T-AIMaven/de-hotel-reviews/assets/116911431/334a141c-4dd1-463e-b170-635144fdfb48">
 </p>
 
 This repository contains a full Q&A pipeline using the LlamaIndex framework, Qdrant as a vector database, and deployment on Google Kubernetes Engine (GKE) using a FastAPI app and Dockerfile. Python files from my repositories are loaded into the vector database, and the FastAPI app processes requests. The main goal is to provide fast access to your own code, enabling reuse of functions.
 
-For detailed project descriptions, refer to this [Medium article](https://medium.com/@benitomartin/find-your-code-scaling-a-llamaindex-and-qdrant-application-with-google-kubernetes-engine-2db126f16344).
+
 
 This article was featured in the GKE Newsletter ([This week in GKE, ISSUE#19, 12 July 2024](https://www.linkedin.com/pulse/dymanic-workload-schedule-ga-confidential-computing-kms-sghiouar-ci8he/?trackingId=%2Bhgvw2lMQlSdKygvtG4MYA%3D%3D)) 
 
@@ -58,12 +58,11 @@ The project has been structured with the following files:
 
 ## Project Set Up
 
-The Python version used for this project is Python 3.10. You can follow along the medium article.
 
 1. Clone the repo (or download it as a zip file):
 
    ```bash
-   git clone https://github.com/benitomartin/scale-gke-qdrant-llama.git
+   git clone https://github.com/T-AIMaven/scale-gke-qdrant-llama.git
    ```
 
 2. Create the virtual environment named `main-env` using Conda with Python version 3.10:
@@ -170,7 +169,7 @@ The Python version used for this project is Python 3.10. You can follow along th
     ```
     
 <p align="center">
-<img width="790" alt="Nodes, Pods, svc and, usage2" src="https://github.com/benitomartin/rag-aws-qdrant/assets/116911431/6443b831-6642-4bea-b40d-b41977e38d4b">
+<img width="790" alt="Nodes, Pods, svc and, usage2" src="https://github.com/T-AIMaven/rag-aws-qdrant/assets/116911431/6443b831-6642-4bea-b40d-b41977e38d4b">
 </p>
 
 12. Under svc the external ip is the endpoint (34.65.157.134), that can be added in the streamlit app
@@ -204,5 +203,5 @@ Run the streamlit app adding the endpoint url that you get after deployment:
    ```
 
 <p align="center">
-<img width="767" alt="lambda-gke" src="https://github.com/benitomartin/mlops-car-prices/assets/116911431/b4a7e10c-52f9-4ca2-ade3-f2136ff6bbdf">
+<img width="767" alt="lambda-gke" src="https://github.com/T-AIMaven/mlops-car-prices/assets/116911431/b4a7e10c-52f9-4ca2-ade3-f2136ff6bbdf">
 </p>
