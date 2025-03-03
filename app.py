@@ -27,6 +27,7 @@ QDRANT_URL = os.getenv('QDRANT_URL')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 openai.api_key = OPENAI_API_KEY
 
+
 # Set OpenAI API key
 if OPENAI_API_KEY is None:
     raise ValueError("Please set the OPENAI_API_KEY environment variable.")
